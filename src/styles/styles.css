@@ -1,0 +1,34 @@
+/* src/styles.css */
+.app {
+    text-align: center;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background: #f0f0f0;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .custom-node {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .custom-node button {
+    border: none;
+    background: red;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .react-flow {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
